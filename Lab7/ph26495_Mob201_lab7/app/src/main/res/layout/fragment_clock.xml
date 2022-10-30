@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/imgClock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg"/>
+
+        <ImageView
+            android:id="@+id/imgSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/second"/>
+        <ImageView
+            android:id="@+id/imgMinute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/minute"/>
+        <ImageView
+            android:id="@+id/imgHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hour"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnRun"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Run"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#66B9FB"/>
+
+
+
+</LinearLayout>

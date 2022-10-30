@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoAPI</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="facebook_app_id">1287725802015150</string>
+    <string name="fb_login_protocol_scheme">fb1287725802015150</string>
+    <string name="facebook_client_token">b4c0033e15f9d8647a3000ba743dbd72</string>
+</resources>

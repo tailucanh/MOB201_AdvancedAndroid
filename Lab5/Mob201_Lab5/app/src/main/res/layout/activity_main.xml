@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    >
+
+    <TextView
+        android:id="@+id/edLinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:text="Thông tin thời tiết"
+        android:textColor="#FF7777"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#65E4F4"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:layout_gravity="center"
+        android:text="Download"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+      />
+    <TextView
+        android:id="@+id/tvNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông báo"
+        android:textColor="#FF493C"
+        android:textSize="18dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginVertical="10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/viewRss"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="5dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+       />
+
+
+</LinearLayout>

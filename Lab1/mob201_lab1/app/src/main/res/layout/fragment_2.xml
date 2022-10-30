@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:paddingTop="100dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhaina"
+        android:gravity="center"
+        android:text="Tìm số lượng chữ cái"
+        android:textColor="#F43636"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/ed_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Nhập nội dung tùy ý"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/background_color_edit_text"
+        />
+    <RadioGroup
+        android:id="@+id/rdg_chooser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <RadioButton
+            android:id="@+id/rdo_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:textColor="#616161"
+            />
+        <RadioButton
+            android:id="@+id/rdo_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:textColor="#616161"
+            android:layout_marginHorizontal="37dp"
+            />
+        <RadioButton
+            android:id="@+id/rdo_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:textColor="#616161"
+
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="50dp"
+        android:text="Tìm kiếm"
+        android:background="@drawable/custom_button_3"
+        android:elevation="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="270dp"
+        android:layout_height="300dp"
+        android:src="@drawable/all"
+        android:scaleType="centerInside"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center|top"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+        <Button
+            android:id="@+id/btnAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#AAA5A5"
+            android:textAllCaps="false"
+            android:text="All"/>
+        <Button
+            android:id="@+id/btnDoraemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:background="#3CD8EC"
+            android:layout_marginHorizontal="20dp"
+            android:text="Doraemon"/>
+        <Button
+            android:id="@+id/btnNobita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EAD947"
+            android:textAllCaps="false"
+            android:text="Nobita"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/btnXuka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF568F"
+            android:textAllCaps="false"
+            android:text="Shizuka"/>
+        <Button
+            android:id="@+id/btnChaien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:background="#58D65D"
+            android:layout_marginHorizontal="20dp"
+            android:text="Chaien"/>
+        <Button
+            android:id="@+id/btnSuneo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E48769"
+            android:textAllCaps="false"
+            android:text="Suneo"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/imgItem"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_item"
+        android:scaleType="centerCrop"
+        android:layout_marginHorizontal="5dp"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:paddingHorizontal="5dp"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:text="Tên"
+        android:textColor="#4C4C4C"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="5dp"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:text="Số đt"
+        android:textColor="#4C4C4C"
+        android:textSize="15dp" />
+
+
+
+</LinearLayout>

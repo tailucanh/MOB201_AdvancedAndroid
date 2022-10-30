@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgAni"
+        android:layout_width="150dp"
+
+        android:scaleType="centerCrop"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btnProperty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingVertical="10dp"
+        android:background="#939393"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="50dp"
+        android:text="Property Animation"/>
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingVertical="10dp"
+        android:textAllCaps="false"
+        android:background="#FF9F9F"
+        android:layout_marginHorizontal="50dp"
+        android:text="View Animation"/>
+    <Button
+        android:id="@+id/btnDrawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingVertical="10dp"
+        android:background="#FDEE66"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="50dp"
+        android:text="Drawable Animation"/>
+
+
+
+
+
+</LinearLayout>
